@@ -1,0 +1,39 @@
+body {
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen' , sans-serif;
+}
+
+#header-nav {
+	color: yellow;
+	background-color: #f6b319;
+}
+
+#image {
+	float: left;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#img-logo {
+	/*background: url("../images/fruits.png") no-repeat;*/
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+	float: left;
+}
+
+.navbar-brand h1 {
+	color: #557c3e;
+	font-family: 'Lora', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+	margin: 10px 10px 10px 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
